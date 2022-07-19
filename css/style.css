@@ -1,0 +1,204 @@
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Inter', sans-serif; */
+body {
+  font-family: "Poppins", sans-serif;
+  /* width: 1275px; */
+  margin: 0 auto;
+}
+.container {
+  padding: 0 120px;
+}
+.fa-arrow-right{
+  padding: 0 5px;
+}
+/* header */
+
+.navigation-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 24px;
+  color: #3a3a3a;
+}
+.navigation-area ul {
+  display: flex;
+}
+.navigation-area li {
+  list-style: none;
+}
+.navigation-area a {
+  text-decoration: none;
+  color: #3a3a3a;
+  padding: 0 17px;
+}
+
+/* bannar */
+.bannar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-heading {
+  color: #3a3a3a;
+  font-size: 52px;
+  line-height: 70px;
+  margin: 0;
+}
+.para {
+  color: #3a3a3a;
+  font-size: 16px;
+  margin: 16px 0 0 0;
+}
+.bannar .btn {
+  color: white;
+  font-size: 16px;
+  padding: 10px 24px;
+  background: #e02c6d;
+  border: 1px solid transparent;
+  border-radius: 41px;
+  margin-top: 16px;
+  font-weight: 700;
+}
+/* Partnar site  */
+.partnar-sites{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+  padding: 0 10px;
+}
+
+/* Populer Products */
+
+.products-heading{
+  text-align: center;
+
+}
+
+.products{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 30px;
+  row-gap: 30px;
+}
+
+.product-item{
+  padding: 13px 14px;
+  background-color: white;
+  border: 1px solid transparent;
+  box-shadow: 0 0 20px 10px grey;
+  margin: 0;
+  border-radius: 5px;
+}
+
+
+.products-heading {
+  font-weight: 600;
+  font-size: 28px;
+  color: #3A3A3A;
+  margin: 30px 0;
+}
+.product-heading {
+  font-weight: 600;
+  font-size: 28px;
+  color: #3A3A3A;
+  margin: 10px 0 0 3px;
+}
+.product-price {
+  /* font-family: 'Inter', sans-serif; */
+  font-weight: 400;
+  font-size: 24px;
+  color: #3A3A3A;
+  margin: 3px 0;
+}
+.product-rating{
+  margin: 0;
+}
+.rating-in-number {
+  font-weight: 400;
+  font-size: 14px;
+  color: #3A3A3A;
+  margin: 3px 0;
+}
+.star{
+  color: #FB8200;
+}
+.product-description, .product-security{
+  font-weight: 700;
+  font-size: 14px;
+  color: #787885;
+  margin: 3px 0;
+}
+
+.button{
+  margin-top: 45px;
+  display: flex;
+  justify-content: end;
+}
+
+.button a {
+  text-decoration: none;
+  color: #E02C6D;
+  
+}
+/* Feature */
+.feature-product{
+  display: flex;
+  align-items: center;
+}
+.feature-description{
+  margin-left: 96px;
+}
+.feature-heading {
+  font-size: 30px;
+  color: #0A0826;
+  margin: 0;
+}
+.feature-para{
+  font-size: 16px;
+  color: #6C6C6C;
+  margin: 16px 0;
+}
+
+.feature-product a {
+  text-decoration: none;
+  color: white;
+  background-color: #E02C6D;
+  margin: 0;
+  padding: 5px 10px;
+  
+}
+
+/* Footer */
+footer{
+  background-color: #0A0826;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 50px 0;
+}
+.footer-heading{
+  font-size: 36px;
+  margin: 0;
+}
+.footer-para{
+  font-size: 16px;
+  margin: 0;
+}
+.social-midea-link{
+  margin-top: 5px;
+
+}
+
+footer a{
+  text-decoration: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background-color: #35334b;
+  
+}
